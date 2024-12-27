@@ -11,10 +11,20 @@
 # 📚 Commend-for-termux
 
 # 🌸 Aftee open the termux past or write this commend to setup the termux
-* termux-setup-storage // This commend help to link the phone storage with termux
-* termux-change-repo // This commend help to change the mirror on termux
-* apt update -y or pkg update -y 
-* apt upgrade -y or pkg upgrade -y 
-* apt install git wget or pkg install git wget
+* **termux-setup-storage** // This commend help to link the phone storage with termux
+* **termux-change-repo** // This commend help to change the mirror on termux
+
+# 🏁 Basic packages to first download 
+```
+pkg update
+pkg upgrade
+pkg install x11-repo
+pkg install termux-x11-nightly
+pkg install tur-repo
+pkg install pulseaudio
+pkg install proot-distro
+pkg install wget
+pkg install git
+```
  
  
