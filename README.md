@@ -31,7 +31,7 @@ pkg install git
 ```
 * Downlaod the basic packages with --> **pkg**
 
-# 🐍 Intsallling the python language
+# 🐍 Intsalling the python language
 🌸 Inctalling the python language for hight frame rate mobels
 
 ```
