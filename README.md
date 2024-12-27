@@ -38,7 +38,8 @@ pkg install git
 pkg update -y
 pkg upgrade -y 
 pkg install python-pip
-pkg install python-pygame 
+pkg install python-pygame
+python --version
 ```
 👀 --> pkg install python-pygame <-- For installing the pygame in python 
 
@@ -49,7 +50,7 @@ pkg install python-pygame
 apt-get update -y
 apt-get upgrade -y
 apt-get install nodejs
-nodejs --version 
+node --version 
 ```
 👀 --> nodejs --version <-- For the seeing the version of nodejs
 
