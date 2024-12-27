@@ -44,7 +44,7 @@ pkg install python-pygame
 
 # 🔥 Installing the **Nodejs** in termux 
 * After the install the **python** you can all so install the **nodejs**
-* This give you coed the programe in javascript 
+* This give you freedom to programe in javascript 
 ```
 apt-get update -y
 apt-get upgrade -y
