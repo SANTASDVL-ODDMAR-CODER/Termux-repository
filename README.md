@@ -10,7 +10,7 @@
 
 # 📚 Commend-for-termux
 
-# 🌸 Aftee open the termux past or write this commend to setup the termux
+# 🌸 After open the termux past or write this commend to setup the termux
 * **termux-setup-storage** // This commend help to link the phone storage with termux
 * **termux-change-repo** // This commend help to change the mirror on termux
 
