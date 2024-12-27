@@ -15,7 +15,7 @@
 * **termux-change-repo** // This commend help to change the mirror on termux
 
 # 🏁 Basic packages to first download 
-* you can all so run the commend with ==> **apt**
+* you can all so run the commend with --> **apt**
 * like # apt update -y
 * like # apt upgrade -y 
 ```
@@ -29,5 +29,50 @@ pkg install proot-distro
 pkg install wget
 pkg install git
 ```
+* Downlaod the basic packages with --> **pkg**
+
+# 🐍 Intsallling the python language
+🌸 Inctalling the python language for hight frame rate mobels
+
+```
+pkg update -y
+pkg upgrade -y 
+pkg install python-pip
+pkg install python-pygame 
+```
+👀 --> pkg install python-pygame <-- For installing the pygame in python 
+
+# 🔥 Installing the **Nodejs** in termux 
+* After the install the **python** you can all so install the **nodejs**
+* This give you coed the programe in javascript 
+```
+apt-get update -y
+apt-get upgrade -y
+apt-get install nodejs
+nodejs --version 
+```
+👀 --> nodejs --version <-- For the seeing the version of nodejs
+
+# 📚 Download the Termux-x11 for gui version of termux
+ 
+## 🥵 termux-Native Desktop
+* **Termux-Native desktop** refers the visual linux envirement, that used in mobile
+* **proot-distro** refers or help to download the linux evvirement like 👉👉👉👉👉👉👉👉
+
+  * 📚 Alpine Linux < alpine >
+  * 🔥 Arch Linux < archlinux >
+  * 🥵 Artix Linux < artix >
+  * 💯 Chimera Linux < chimera >
+  * 🤝 Debian (bookworm) < debian >
+  * 🍫 Debian (bullseye) < debian-oldstable >
+  * 💀 deepin < deepin >
+  * ☠️ Fedora < fedora >
+  * 😘 Manjaro < manjaro >
+  * 🤤 OpenKylin < openkylin >
+  * 😋 OpenSUSE < opensuse >
+  * 🥴 Pardus < pardus >
+  * 🐍 Ubuntu (24.04) < ubuntu >
+  * 🌝 Ubuntu (22.04) < ubuntu-oldlts >
+  * 🤖 Void Linux < void >
  
  
