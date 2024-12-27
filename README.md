@@ -57,7 +57,7 @@ nodejs --version
  
 ## 🥵 termux-Native Desktop
 * **Termux-Native desktop** refers the visual linux envirement, that used in mobile
-* **proot-distro** refers or help to download the linux evvirement like 👉👉👉👉👉👉👉👉
+* **proot-distro** refers or help to download the linux envirement like 👉👉👉👉👉👉👉👉
 
   * 📚 Alpine Linux < alpine >
   * 🔥 Arch Linux < archlinux >
@@ -74,5 +74,28 @@ nodejs --version
   * 🐍 Ubuntu (24.04) < ubuntu >
   * 🌝 Ubuntu (22.04) < ubuntu-oldlts >
   * 🤖 Void Linux < void >
+
+# 🤖 Proot-distro download in termux
+## 🌸 First download the **proot-distro**
+
+* 📚 First download the **proot-distro** and select the distro that what you need to download
+* 👀 After the downloading the **distro**, Open **distro**, use this commend 👉👉👉👉👉 **proot-distro login <distro_name>**
+```
+pkg install proot-distro
+proot-distro install <distro>
+proot-distro login <distro>
+```
+# 🧏 Termux backup plane
+## 🗣️ termux backup plane commend work by creating a **termux.backup.tar.gz** file for backup 
+
+* First download the tar package with **pkg install tar** commend........
+* Then use the chocolate 🍫 commend for creating the backup file.............
+* If you need to extract the **backfile** use the third mean the 👀 commend............ 
+
+⚠️ Creating a backup file it take some time by according your termux file size. As same by extracting the **backupfile** it take some time according your **backupfile** size 🔥
+
+* 👉 pkg install tar 
+* 🍫 cd $PREFIX/../../;tar -pczvf /sdcard/termux.backup.tar.gz files/;cd;
+* 👀 cd $PREFIX/../../;tar -xzvf /sdcard/termux.backup.tar.gz;cd;
  
  
