@@ -88,9 +88,9 @@ proot-distro login <distro>
 # 🧏 Termux backup plane
 ## 🗣️ termux backup plane commend work by creating a **termux.backup.tar.gz** file for backup 
 
-* First download the tar package with **pkg install tar** commend........
-* Then use the chocolate 🍫 commend for creating the backup file.............
-* If you need to extract the **backfile** use the third mean the 👀 commend............ 
+* 👉 First download the tar package with **pkg install tar** commend........ 👈
+* 👉 Then use the chocolate 🍫 commend for creating the backup file............. 👈
+* 👉 If you need to extract the **backfile** use the third mean the 👀 commend............ 👈
 
 ⚠️ Creating a backup file it take some time by according your termux file size. As same by extracting the **backupfile** it take some time according your **backupfile** size 🔥
 
