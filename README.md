@@ -14,7 +14,7 @@
 * **termux-setup-storage** // This commend help to link the phone storage with termux
 * **termux-change-repo** // This commend help to change the mirror on termux
 
-# 🏁 Basic packages to first download 
+# 🏁 Basic packages to download first 
 * you can all so run the commend with --> **apt**
 * like # apt update -y
 * like # apt upgrade -y 
