@@ -15,6 +15,9 @@
 * **termux-change-repo** // This commend help to change the mirror on termux
 
 # 🏁 Basic packages to first download 
+* you can all so the commend with **apt**
+* like # apt update -y
+* like # apt upgrade -y 
 ```
 pkg update
 pkg upgrade
