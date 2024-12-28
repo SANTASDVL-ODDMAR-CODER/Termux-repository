@@ -134,7 +134,7 @@ adduser droidmaster
 # 🔥 Setuping the sudo user on debian
 
 * 🗣️ After install all those thinks, now we setup **sudo user** or the **root user**
-* 🗣️ Here al commend 🤝
+* 🗣️ Here all commend 🤝
 
 3. Give the user sudo privileges
 ```
@@ -143,5 +143,24 @@ nano /etc/sudoers
 # Add the user in /etc/sudoers file 
 droidmaster ALL=(ALL:ALL) ALL
 ```
-👉 Here is the photo, to how to add 👈
-https://photos.app.goo.gl/8hhwSbD73DqqRoV38
+👉 Here is the photo, to how to add 👈 | 
+🍫 Image link --> https://photos.app.goo.gl/8hhwSbD73DqqRoV38
+
+4. Check you can execute sudo commands (it should return `root`)
+```
+su - droidmaster
+sudo whoami
+```
+
+* 📚 By using the **su - droidmaster** it transfer as droidmaster user
+* 🌟 And using the **sudo whoami** commend  enable the root user
+
+5. Running script for Termux-x11
+```
+wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startxfce4_debian.sh
+chmod +x startxfce4_debian.sh
+./startxfce4_debian.sh 
+```
+
+* 😲 Pasting this commend it automaticly open the Termux-x11 with virtual distro 
+* 🤗 Here is the finished, I hope you like it 
