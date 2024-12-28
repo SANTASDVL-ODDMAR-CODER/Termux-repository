@@ -98,5 +98,50 @@ proot-distro login <distro>
 * 👉 pkg install tar 
 * 🍫 cd $PREFIX/../../;tar -pczvf /sdcard/termux.backup.tar.gz files/;cd;
 * 👀 cd $PREFIX/../../;tar -xzvf /sdcard/termux.backup.tar.gz;cd;
- 
- 
+
+# 🥶 proot-distro debian installation
+
+* 🗣️ I show you the full prosess of how to install **Proot-distro debian** package on termux
+* 👌 That give you the full **freedom** to use a linux envirment in your mobile
+* 👉👈 And all so you can use the 👉 **firefox** and **chromium** 👉 **VLC Media** 👉 and all so **Discord Server**
+* 🤤 Here is the prosess 🤳
+
+1. Download the first packages
+```
+proot-distro install debian
+proot-distro login debian
+apt update -y
+apt upgrade -y
+apt install sudo -y
+apt install nano -y
+apt install git -y
+apt install wget -y
+apt install xfce4 -y
+apt update -y
+apt upgrade -y
+```
+2. Add the user
+
+```
+adduser droidmaster 
+```
+* ☝️ First commend **proot-distro install debian** install the proot-debian
+* ✌️ By using this commend **proot-distro login debian** you can login the debian
+* 🥉Now running the debian in a virtualy, We use the **Termux-x11 app** for this 👉 👉 👉 👉 The download link [here] (**https://github.com/termux/termux-x11/releases/tag/nightly**)
+* 📚 Here a commend name **adduser**, It added the user in debian <I use the **droidmster** name for this time>
+* ✨ After use the **adduser** commend it show to give a **password** 👉 It your choise to give a password but I suggest to give number's like **12345678** for better remembering
+
+# 🔥 Setuping the sudo user on debian
+
+* 🗣️ After install all those thinks, now we setup **sudo user** or the **root user**
+* 🗣️ Here al commend 🤝
+
+3. Give the user sudo privileges
+```
+nano /etc/sudoers
+
+# Add the user in /etc/sudoers file 
+droidmaster ALL=(ALL:ALL) ALL
+```
+👉 Here is the photo, to how to add 👈
+https://photos.app.goo.gl/8hhwSbD73DqqRoV38
