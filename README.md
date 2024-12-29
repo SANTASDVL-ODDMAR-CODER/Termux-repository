@@ -163,4 +163,34 @@ chmod +x startxfce4_debian.sh
 ```
 
 * 😲 Pasting this commend it automaticly open the Termux-x11 with virtual distro 
-* 🤗 Here is the finished, I hope you like it 
+* 🤗 Here is the finished, I hope you like it
+
+# 😎 Pre-build termux Setup 
+* 🤜 In this pre-build setup tutorial I show you, how to setup as quickly as possible and all so a deautiful customizetion
+* 🗣️ Here is the commend 👉 👉 👉 👉 👉 👉
+```
+apt update && apt upgrade -y
+apt install xfce4 -y
+cd ~
+
+# This commend setup the virtual enverment
+wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/refs/heads/main/scripts/termux_native/startxfce4_termux(old-android).sh
+chmod +x startxfce4_termux.sh
+./startxfce4_termux.sh
+```
+* **wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/refs/heads/main/scripts/termux_native/startxfce4_termux(old-android).sh** this commend open the linxu virtual enverment in **termux-x11** app
+* After open the linux virsual enverment, if you see all is good than fully close it **termux** and **termux-x11** and past another commend to enjoying full setup experiment
+
+```
+curl -sLf https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/main/boostrap.sh | bash
+```
+
+* After pasting the commend press enter and wait till the download end, after fully downloading update and upgrade the pachages and open the linux virtual envirment with this commend **./startxfce4_termux.sh**
+* Then you this 👉 👉 👉 👉
+* ![1315629](https://github.com/user-attachments/assets/6b4e4d1b-fade-443c-90a3-7ea6c1f52a7a)
+* 🗣️ I hope this tutorial you like it 🥰
+
+
+
+
+
