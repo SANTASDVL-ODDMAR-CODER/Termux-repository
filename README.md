@@ -174,7 +174,7 @@ apt install xfce4 -y
 cd ~
 
 # This commend setup the virtual enverment
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/refs/heads/main/scripts/termux_native/startxfce4_termux(old-android).sh
+wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/startxfce4_termux.sh
 chmod +x startxfce4_termux.sh
 ./startxfce4_termux.sh
 ```
