@@ -193,6 +193,7 @@ curl -Lf https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/setup-
 * 🥵 Another pre-build setup 
 
 ```
+curl -sL https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
 * After pasting the commend press enter and wait till the download end, after fully downloading update and upgrade the pachages and open the linux virtual envirment with this commend **./startxfce4_termux.sh**
