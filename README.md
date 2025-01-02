@@ -186,6 +186,10 @@ chmod +x startxfce4_termux.sh
 ```
 curl -sLf https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/main/boostrap.sh | bash
 ```
+* 🌸 Here is the another bonus per-build termux setup commend for yours 
+```
+curl -Lf https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/setup-termux-desktop -o setup-termux-desktop && chmod +x setup-termux-desktop && ./setup-termux-desktop
+```
 
 * After pasting the commend press enter and wait till the download end, after fully downloading update and upgrade the pachages and open the linux virtual envirment with this commend **./startxfce4_termux.sh**
 * Then you this 👉 👉 👉 👉
