@@ -169,8 +169,8 @@ chmod +x startxfce4_debian.sh
 * 🤜 In this pre-build setup tutorial I show you, how to setup as quickly as possible and all so a deautiful customizetion
 * 🗣️ Here is the commend 👉 👉 👉 👉 👉 👉
 ```
-apt update && apt upgrade -y
-apt install xfce4 -y
+pkg update && pkg upgrade -y
+pkg install xfce4 -y
 cd ~
 
 # This commend setup the virtual enverment
