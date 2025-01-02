@@ -19,15 +19,15 @@
 * like # apt update -y
 * like # apt upgrade -y 
 ```
-pkg update
-pkg upgrade
-pkg install x11-repo
-pkg install termux-x11-nightly
-pkg install tur-repo
-pkg install pulseaudio
-pkg install proot-distro
-pkg install wget
-pkg install git
+pkg update -y
+pkg upgrade -y 
+pkg install x11-repo -y
+pkg install termux-x11-nightly -y
+pkg install tur-repo -y
+pkg install pulseaudio -y 
+pkg install proot-distro -y
+pkg install wget -y
+pkg install git -y
 ```
 * Downlaod the basic packages with --> **pkg**
 
